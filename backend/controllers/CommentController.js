@@ -30,7 +30,9 @@ const createComment = async (req, res) => {
 
 const getComments = async (req, res) => {
   try {
-    const comments = await Comment.find().populate('user', 'name pic email')
+    const comments = await Comment.find()
+      .populate('user', 'name pic email')
+      .sort({ createdAt: -1 })
 
     return res.send(comments)
   } catch (error) {
