@@ -1,2 +1,2 @@
 // endpoint backend
-export const ENDPOINT = "http://localhost:5000/"
+export const ENDPOINT = "https://social-app-whlf.onrender.com/"
