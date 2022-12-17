@@ -33,7 +33,7 @@ import '../styles.css'
 
 import { io } from 'socket.io-client'
 import UserListItem from '../UserAvatar/UserListItem'
-const ENDPOINT = 'http://localhost:5000/'
+import { ENDPOINT } from '../../config/SocketConnection'
 
 var socket
 

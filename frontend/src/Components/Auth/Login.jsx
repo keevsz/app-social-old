@@ -7,7 +7,6 @@ import {
   Image,
   Input,
   InputRightElement,
-  Text,
   useToast,
 } from "@chakra-ui/react"
 import axios from "axios"

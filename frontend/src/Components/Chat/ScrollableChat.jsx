@@ -2,7 +2,6 @@ import {
   Avatar,
   Menu,
   MenuButton,
-  MenuItem,
   MenuList,
   Text,
   Tooltip,

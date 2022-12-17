@@ -16,6 +16,7 @@ const PostsPage = () => {
         },
       }
       const { data } = await axios.get("/api/post", config)
+      console.log(data)
       setPosts(data)
     } catch (error) {
       console.log(error)
